@@ -49,6 +49,11 @@ public class Student {
         return "abcd";
     }
 
+    public void show(){
+        System.out.println("show 方法执行了");
+    }
+
+
 
     public String getName() {
         return name;
